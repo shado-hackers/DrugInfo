@@ -32,7 +32,7 @@ telegram-medicine-bot/
 ├── data/
 │   └── medicine_dataset.csv     # CSV file containing medicine data
 │
-├── bot.py                       # Main bot application file
+├── app.py                       # Main bot application file
 │
 ├── requirements.txt             # File listing dependencies required by the bot
 │
