@@ -1,0 +1,22 @@
+{
+    "name": "DrugInfo",
+    "description": "Telegram bot for retrieving information about medicines",
+    "repository": "https://github.com/riz4d/DrugInfo",
+    "keywords": ["telegram", "bot", "drug", "information"],
+    "image": "heroku/python",
+    "addons": [],
+    "buildpacks": [
+      {
+        "url": "heroku/python"
+      }
+    ],
+    "scripts": {
+      "start": "python app.py"
+    },
+    "formation": {
+      "worker": {
+        "quantity": 1
+      }
+    }
+  }
+  
